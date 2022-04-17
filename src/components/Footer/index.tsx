@@ -6,7 +6,7 @@ export function Footer() {
           <p>@2022 - Pedro Makengo</p>
         </div>
         <div className="powerby">
-          <p>Powered by</p>
+          <p>Powered by {"{ }"}</p>
         </div>
       </div>
     </footer>
