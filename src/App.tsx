@@ -4,6 +4,7 @@ import { HomeScreen } from "./components/HomeScreen";
 import { AboutMy } from "./components/AboutMy";
 import { Experience } from "./components/Experience";
 import { Project } from "./components/Project";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutMy />
       <Experience />
       <Project />
+      <Footer />
       <GlobalStyle />
     </>
   );

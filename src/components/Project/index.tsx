@@ -5,6 +5,7 @@ import { Container, Content, ContentRepository, Repository } from "./styles";
 import linkImg from "../../assets/link.svg";
 
 interface RepositoryProps {
+  id: number;
   name: string;
   description: string;
   html_url: string;
@@ -28,7 +29,7 @@ export function Project() {
 
         <ContentRepository>
           {repository.map((repo) => (
-            <Repository>
+            <Repository key={repo.id}>
               <img src={repo.avatar_url} alt="" className="image-project" />
               <h2>{repo.name}</h2>
               <p>{repo.description}</p>

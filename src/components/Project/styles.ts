@@ -26,7 +26,10 @@ export const ContentRepository = styled.div`
   img.image-project {
     width: 100%;
     height: 200px !important;
-    border-left: 1px solid var(--primary);
+    border-left: 2px solid var(--primary);
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0 !important;
   }
 `;
 

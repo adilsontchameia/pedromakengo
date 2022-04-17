@@ -16,4 +16,10 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
   }
+  
+
+  footer {
+    height: 100px;
+    background:var(--dark);
+  }
 `;
