@@ -11,7 +11,7 @@ export const Content = styled.div`
   color: var(--light);
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  padding: 4rem 0;
 `;
 
 export const ImgContent = styled.div`
@@ -47,6 +47,14 @@ export const ContentDescrition = styled.div`
       margin-right: 2rem;
       display: flex;
       align-items: center;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    margin-top: 2rem;
+
+    a {
     }
   }
 `;

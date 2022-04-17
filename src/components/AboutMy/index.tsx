@@ -6,6 +6,12 @@ import twitchImg from "../../assets/twich.svg";
 import youtubeImg from "../../assets/youtube.svg";
 import figmaImg from "../../assets/figma.svg";
 
+import curriculo from "../../assets/curriculo.pdf";
+
+import curriculoImg from "../../assets/download-cloud.svg";
+import emailImg from "../../assets/mail.svg";
+import { Button } from "../button";
+
 export function AboutMy() {
   return (
     <Container id="sobre">
@@ -34,6 +40,22 @@ export function AboutMy() {
             <a href="#">
               <img src={figmaImg} alt="Twitter " />
             </a>
+          </div>
+
+          <div className="buttons">
+            <Button
+              img={curriculoImg}
+              route={curriculo}
+              color="secondary"
+              text="Currículo"
+              download={curriculo}
+            />
+            <Button
+              img={emailImg}
+              route="mailto:pedromakengomiguel@gmail.com"
+              color="primary"
+              text="E-mail"
+            />
           </div>
         </ContentDescrition>
       </Content>
