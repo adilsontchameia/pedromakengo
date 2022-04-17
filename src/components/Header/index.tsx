@@ -1,3 +1,5 @@
+import { Container } from "./styles";
+
 const nav = [
   {
     id: 1,
@@ -14,12 +16,17 @@ const nav = [
     route: "/",
     text: "Experiência",
   },
+  {
+    id: 4,
+    route: "/",
+    text: "Projectos",
+  },
 ];
 
 export function Header() {
   return (
-    <header>
-      <h2>Portfolio</h2>
+    <Container>
+      <h2>Portfólio</h2>
       <nav>
         {nav.map((item) => (
           <a href={item.route} key={item.id}>
@@ -27,6 +34,6 @@ export function Header() {
           </a>
         ))}
       </nav>
-    </header>
+    </Container>
   );
 }
