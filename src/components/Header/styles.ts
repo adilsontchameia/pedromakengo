@@ -17,7 +17,7 @@ export const Container = styled.header`
   nav {
     a {
       margin-left: 2rem;
-      color: #fff;
+      color: var(--light);
       text-decoration: none;
 
       font-weight: 300;
