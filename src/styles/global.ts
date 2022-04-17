@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
     --dark-200: #151515;
     --light: #FFFFFF;
     --primary: #00D2DF;
+    --gray-light: #c4c4c4;
   }
 
   body {
@@ -13,6 +14,6 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: 'Inter', sans-serif;
   }
 `;
