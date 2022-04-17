@@ -1,0 +1,18 @@
+{
+  "git.enabled": false,
+  "files.exclude": {
+    "node_modules": true,
+    ".vscode": true,
+    ".gitignore": true,
+    "package.json": true,
+    "package-lock.json": true,
+    "public": true,
+    "README.md": true,
+    "src-2": true,
+    "src-3": true,
+    "src-4": true,
+    "src-5": true,
+    "src-6": true,
+    "src-7": true
+  }
+}
