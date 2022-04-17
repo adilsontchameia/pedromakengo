@@ -7,6 +7,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^0.26.1",
     "miragejs": "^0.1.43",
     "polished": "^4.2.2",
     "react": "^17.0.2",
