@@ -20,13 +20,12 @@ export const Content = styled.div`
 export const ContentRepository = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 50px;
+  gap: 20px;
   flex-wrap: wrap;
 
   img.image-project {
     width: 100%;
-    height: 200px !important;
-    border-left: 2px solid var(--primary);
+    height: 250px !important;
     border-right: 0;
     border-top: 0;
     border-bottom: 0 !important;
@@ -36,6 +35,14 @@ export const ContentRepository = styled.div`
 export const Repository = styled.div`
   color: var(--light);
   margin-top: 2rem;
+
+  opacity: 0.5;
+
+  transition: opacity 0.5s;
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
 
   p {
     color: var(--gray-light);

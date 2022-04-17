@@ -3,24 +3,10 @@ import { Button } from "../button";
 import { Container, Content, ContentRepository, Repository } from "./styles";
 
 import linkImg from "../../assets/link.svg";
-
-interface RepositoryProps {
-  id: number;
-  name: string;
-  description: string;
-  html_url: string;
-  language: string;
-  avatar_url: string;
-}
+import { useRepository } from "../../hooks/useRepository";
 
 export function Project() {
-  const [repository, setRepository] = useState<RepositoryProps[]>([]);
-
-  useEffect(() => {
-    fetch("https://api.github.com/users/pedromakengo/repos")
-      .then((response) => response.json())
-      .then((json) => setRepository(json));
-  }, []);
+  const { repository } = useRepository();
 
   return (
     <Container>

@@ -14,12 +14,27 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
   }
   
+  * {
+    font-family: 'Inter', sans-serif;
+  }
 
   footer {
     height: 100px;
     background:var(--dark);
+
+    display: flex;
+  }
+
+  footer .container {
+    width: 70%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: var(--gray-light)
   }
 `;

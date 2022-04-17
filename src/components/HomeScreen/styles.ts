@@ -19,21 +19,22 @@ export const Content = styled.div`
   display: flex;
   align-items: center;
 
-  text-transform: uppercase;
-
   span {
     line-height: 0;
     font-size: 24px;
+    text-transform: uppercase;
   }
 
   h1 {
     color: var(--primary);
     font-size: 54px;
     line-height: 0;
+    text-transform: uppercase;
   }
 
   p {
     font-size: 24px;
+    text-transform: uppercase;
   }
 `;
 

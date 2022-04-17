@@ -27,6 +27,7 @@ export const ContentTab = styled.div`
   nav {
     width: 24%;
     margin-right: 2rem;
+
     button {
       width: 100%;
       height: 55px;
@@ -38,11 +39,20 @@ export const ContentTab = styled.div`
       border-left: 1px solid var(--dark-200);
       padding-left: 1rem;
 
-      color: var(--light);
+      color: var(--gray-light);
       font-size: 0.999rem;
       background: transparent;
 
+      transition: background 0.5s;
+
+      &:hover {
+        border-left: 1px solid var(--primary);
+        background: var(--dark-200) !important;
+        cursor: pointer;
+      }
+
       &.active {
+        color: var(--light);
         background: var(--dark-200);
         border-left: 2px solid var(--primary);
       }
