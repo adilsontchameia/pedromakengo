@@ -19,6 +19,8 @@ export const Container = styled.header`
       margin-left: 2rem;
       color: #fff;
       text-decoration: none;
+
+      font-weight: 300;
     }
   }
 `;
