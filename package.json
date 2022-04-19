@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.0.0",
+  "license": "MTI",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
