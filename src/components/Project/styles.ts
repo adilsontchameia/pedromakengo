@@ -49,7 +49,10 @@ export const Repository = styled.div`
   }
 
   span {
+    display: flex;
     color: var(--primary);
+    line-height: 0;
+    margin: 2rem 0 0 0;
   }
   a {
     margin-top: 2rem;

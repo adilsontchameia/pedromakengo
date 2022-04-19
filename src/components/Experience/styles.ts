@@ -74,6 +74,7 @@ export const ContentTab = styled.div`
       }
       p {
         margin-top: 2rem;
+        line-height: 30px;
       }
     }
   }

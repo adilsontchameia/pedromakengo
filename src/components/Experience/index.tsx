@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Container, Content, ContentTab } from "./styles";
 
 export function Experience() {
-  const [tab, setTable] = useState("tab1");
   return (
     <Container>
       <Content>
@@ -16,16 +15,16 @@ export function Experience() {
             <button>Desafios</button>
           </nav>
           <div className="tab">
-            <div className="tab-content">
+            <div className="tab-content active">
               <div className="tab-row">
                 <strong>Técnico de Informática</strong>
                 <span>Nov 2020 - Atual</span>
               </div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-                tenetur, ex nostrum quis sed similique tempora dolorem labore
-                incidunt officia fuga explicabo hic quam quo. Minima aliquam
-                quia ea repellat.
+                Trabalho 3 vezes por semana dando suporte aos demais
+                departamento com as actividades informáticas, principalmente com
+                a emissão de documentos digitais, neste momento estou
+                trabalhando 100% focado com a emissão de documento.
               </p>
             </div>
           </div>
