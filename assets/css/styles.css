@@ -398,7 +398,27 @@ img {
 }
 
 .skills__icon,
-.skil {
+.skills__arrow {
+  font-size: 2rem;
+  color: var(--first-color);
+}
+
+.skills__title {
+  font-size: var(--h3-font-size);
+}
+
+.skills__subtitle {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
+
+.skills__arrow {
+  margin-left: auto;
+  transition: 0.4s;
+}
+
+.skills_titles {
+  display: flex;
 }
 /*==================== QUALIFICATION ====================*/
 
