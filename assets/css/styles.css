@@ -390,9 +390,10 @@ img {
   row-gap: 0;
 }
 
-.skills_header {
+.skills__header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: var(--mb-2-5);
   cursor: pointer;
 }
@@ -401,6 +402,10 @@ img {
 .skills__arrow {
   font-size: 2rem;
   color: var(--first-color);
+}
+
+.skills__icon {
+  margin-right: var(--mb-0-75);
 }
 
 .skills__title {
@@ -419,6 +424,48 @@ img {
 
 .skills_titles {
   display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--mb-0-5);
+}
+
+.skills__name {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
+
+.skills__bar,
+.skills__percentage {
+  height: 5px;
+  border-radius: 0.25rem;
+}
+
+.skills__bar {
+  background-color: var(--first-color-lighter);
+}
+
+.skills__percentage {
+  display: block;
+  background-color: var(--first-color);
+}
+
+.skills__html {
+  width: 90%;
+}
+
+.skills__css {
+  width: 70%;
+}
+.skills__javascript {
+  width: 60%;
+}
+.skills__react {
+  width: 40%;
+}
+.skills__vue {
+  width: 50%;
+}
+.skills__angular {
+  width: 15%;
 }
 /*==================== QUALIFICATION ====================*/
 
