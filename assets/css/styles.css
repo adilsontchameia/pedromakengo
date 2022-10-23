@@ -386,7 +386,20 @@ img {
   justify-content: center;
 }
 /*==================== SKILLS ====================*/
+.skills__container {
+  row-gap: 0;
+}
 
+.skills_header {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-2-5);
+  cursor: pointer;
+}
+
+.skills__icon,
+.skil {
+}
 /*==================== QUALIFICATION ====================*/
 
 /*==================== SERVICES ====================*/
