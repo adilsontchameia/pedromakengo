@@ -467,6 +467,26 @@ img {
 .skills__angular {
   width: 15%;
 }
+
+.skills__php {
+  width: 50%;
+}
+
+.skills__node {
+  width: 30%;
+}
+
+.skills__firebase {
+  width: 20%;
+}
+
+.skills__figma {
+  width: 20%;
+}
+
+.skills__photoshop {
+  width: 40%;
+}
 /*==================== QUALIFICATION ====================*/
 
 /*==================== SERVICES ====================*/
