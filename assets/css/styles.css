@@ -487,6 +487,10 @@ img {
 .skills__photoshop {
   width: 40%;
 }
+
+.skills__close .skills {
+  background: red;
+}
 /*==================== QUALIFICATION ====================*/
 
 /*==================== SERVICES ====================*/
