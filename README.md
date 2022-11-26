@@ -3,19 +3,23 @@ My name is 🤓 Pedro Makengo, I´m from Angola 🇦🇴  I´m A Computer Enginn
 
 I´m passionate about solving problems and learning. Always ope to new challenges and ready to face changes.
 
-#### "" Technologies & Contributions ""
+## Contributions
  <div>
-  <a href="https://github.com/rafaballerini">
+  <a href="https://github.com/PedroMakengo">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=pedromakengo&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedromakengo&layout=compact&langs_count=7&theme=dracula"/>
 </div>
+ 
+## Technologies
 <div style="display: inline_block"><br>
   <img align="center" alt="PedroMakengo-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="PedroMakengo-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
   <img align="center" alt="PedroMakengo-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="PedroMakengo" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="PedroMakengo-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
- 
+  <img align="center" alt="PedroMakengo-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg">
+  <img align="center" alt="PedroMakengo-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">
+  <img align="center" alt="PedroMakengo-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg">
 </div>
   
   ##
